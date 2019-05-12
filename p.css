@@ -1,0 +1,65 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background:url(sss.jpg);
+	background-size: cover;
+	text-align: center;
+	font-family: sans-serif;
+}
+.contact-title
+{
+	font-size: '9';
+	margin-top: 100px;
+	color:#fff;
+	text-transform:uppercase;
+	transition:all 4s ease-in-out;
+}
+form
+{
+	margin-top: 50px;
+	transform: all 4s ease-in-out;
+}
+.form-control
+{
+	width: 600px;
+	background:transparent;
+	border: solid gray;
+	outline: none;
+	border-color: none;
+	border-bottom: : 2px solid gray;
+	color: white;
+	font-size:15px;
+	margin-bottom: 16px; 
+}
+input
+{
+	height: 45px;
+}
+input[type="submit"]
+{
+	background : tan; 
+    border-radius: 100%;
+	border-color:red;
+	color: blue;
+	font-size:20px;
+	height: 50px;
+	margin-top:20px;
+}
+h3{
+	margin-top: 100px;
+	color:#fff;
+	text-transform:uppercase;
+	transition:all 4s ease-in-out;
+
+}
+p{
+	font font-family:fantasy;
+	color: white;
+}
+
+#username,#emailid,#mobileno{
+	color: white;
+	font-weight: bold;
+	position: absolute;
+}

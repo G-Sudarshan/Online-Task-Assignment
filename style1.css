@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.team-section{
+	overflow: hidden;
+	text-align: center;
+	background: #34495e;
+	padding: 60px;
+}
+.team-section h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: white;
+	font-size: 40px;
+}
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background: #3498db;
+	margin-bottom: 40px;
+}
+.ps{
+	margin-bottom: 100px;
+}
+.ps a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 100%;
+}
+.ps a img{
+	width: 150%;
+	filter: grayscale(100%);
+	
+	transition: 0.1s all;
+}
+.ps a:hover >img{
+	filter: none;
+}
+.section{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color:white;
+	text-align: justify;
+	height:0;
+	overflow: hidden;
+}
+.section:target{
+	height: auto;
+}
+.name{
+	display: block;
+	margin-bottom: 30px;
+	text-align:center;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+.para{
+	text-align: justify;
+	margin-left: 300px;
+	margin-right: 300px;
+	color: #ffffff;
+}
+
+#one{
+	text-align: left;
+	margin-left: 70px;
+	position: absolute;
+	left: 100px;
+	bottom: 250px;
+	color: #ffffff;
+}
+#two{
+	text-align: left;
+	margin-left: 100px;
+	position: absolute;
+	left: 280px;
+	bottom: 250px;
+	color: #ffffff;
+}
+#three{
+	bottom: 250px;
+	text-align: left;
+	margin-left: 150px;
+	position: absolute;
+	left: 450px;
+	color: #ffffff;
+}
+#four{
+	bottom: 250px;
+	text-align: left;
+	margin-left: 200px;
+	left: 640px;
+	position: absolute;
+	color: #ffffff;
+}
+#five{
+	bottom: 250px;
+	text-align: left;
+	margin-left: 250px;
+	position: absolute;
+	left: 810px;
+	color: #ffffff;
+}
+#onee{
+	text-align: left;
+	margin-left: 70px;
+	position: absolute;
+	left: 115px;
+	bottom: 230px;
+	color: #ffffff;
+}
+#twoo{
+	text-align: left;
+	margin-left: 100px;
+	position: absolute;
+	left: 300px;
+	bottom: 230px;
+	color: #ffffff;
+}
+#threee{
+	bottom: 230px;
+	text-align: left;
+	margin-left: 150px;
+	position: absolute;
+	left: 470px;
+	color: #ffffff;
+}
+#fourr{
+	bottom: 230px;
+	text-align: left;
+	margin-left: 200px;
+	left: 650px;
+	position: absolute;
+	color: #ffffff;
+}
+#fivee{
+	bottom: 230px;
+	text-align: left;
+	margin-left: 250px;
+	position: absolute;
+	left: 830px;
+	color: #ffffff;
+}
